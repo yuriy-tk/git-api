@@ -1,0 +1,30 @@
+{
+  "npmScope": "git-api",
+  "implicitDependencies": {
+    "workspace.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/workspace/tasks-runners/default",
+      "options": {
+        "cacheableOperations": ["build", "lint", "test", "e2e"]
+      }
+    }
+  },
+  "projects": {
+    "react-git-api": {
+      "tags": []
+    },
+    "react-git-api-e2e": {
+      "tags": [],
+      "implicitDependencies": ["react-git-api"]
+    }
+  }
+}
