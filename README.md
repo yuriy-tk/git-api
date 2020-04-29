@@ -1,4 +1,8 @@
-# GitApi
+# How to run
+  - `npm install`
+  - `npm run start`
+
+# Project generation info
 
 This project was generated using [Nx](https://nx.dev).
 
