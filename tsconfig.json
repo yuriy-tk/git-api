@@ -15,7 +15,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@git-api/core": ["libs/core/src/index.ts"],
+      "@git-api/ui": ["libs/ui/src/index.ts"],
+      "@git-api/*": ["libs/*"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

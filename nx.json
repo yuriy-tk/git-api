@@ -25,6 +25,12 @@
     "react-git-api-e2e": {
       "tags": [],
       "implicitDependencies": ["react-git-api"]
+    },
+    "core": {
+      "tags": []
+    },
+    "ui": {
+      "tags": []
     }
   }
 }
